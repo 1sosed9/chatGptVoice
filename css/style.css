@@ -1,0 +1,47 @@
+body {
+    background-color: #060b0f;
+}
+
+button, p {
+    position: relative;
+    top: 35vh;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 5vh;
+}
+
+button {
+    height: 8vh;
+    background-color: #fd7526;
+    color: #060b0f;
+    border: none;
+    border-radius: 10px;
+    /* animation: button_anim 2s infinite; */
+}
+
+p {
+    color: #fd7526;
+}
+
+@media screen and (max-width: 800px) {
+    button, p {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    p {
+        font-size: 3vh;
+    }
+}
+
+@keyframes button_anim {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+}
